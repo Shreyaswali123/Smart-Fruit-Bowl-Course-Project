@@ -1,0 +1,31 @@
+# ESP-IDF
+build/
+managed_components/
+sdkconfig
+sdkconfig.old
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.clangd/
+.ccls-cache/
+compile_commands.json
+
+# Build outputs
+*.bin
+*.elf
+*.map
+*.o
+*.a
+
+# Generated experimental data
+*.csv
+
+# Local secrets
+.env
+secrets.h
